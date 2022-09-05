@@ -29,3 +29,17 @@ body {
 .nav .logo {
   font-size: 2rem;
 }
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.carContainer .carElement {
+  width: 50px;
+}

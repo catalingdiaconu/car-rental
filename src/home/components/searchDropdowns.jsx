@@ -13,8 +13,6 @@ export const SearchDropdowns = () => {
         setCheckboxOption(true)
     }
 
-    console.log(checkboxOption)
-
     return (
         <div className={'searchContainer'}>
             <span>Select a Pick-up point</span>
@@ -38,9 +36,13 @@ export const SearchDropdowns = () => {
                     </div>
             }
             <span>Pick up Date</span>
-            <input type="datetime-local"/>
+            <input type="date"/>
+            <span>Pick up Time</span>
+            <input type="time"/>
             <span>Drop off Date</span>
-            <input type="datetime-local"/>
+            <input type="date"/>
+            <span>Drop off Time</span>
+            <input type="time"/>
         </div>
     )
 }

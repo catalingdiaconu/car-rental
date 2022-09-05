@@ -1,18 +1,15 @@
-import React from 'react';
-import { Home } from './home/home'
-import { Locations } from "./locations/locations";
-import { Faq } from "./faq/faq";
+import React, {useState} from 'react';
 import { Nav } from "./nav";
 import { AppRouter } from "./appRouter";
 
-
 function App() {
-  return (
+
+    return (
     <div>
-        <Nav />
-        <AppRouter />
+            <Nav />
+            <AppRouter />
     </div>
-  );
+    );
 }
 
 export default App;

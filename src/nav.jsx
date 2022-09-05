@@ -1,4 +1,5 @@
 import React from 'react'
+import { FiUser } from 'react-icons/fi'
 
 export const Nav = () => {
     return (
@@ -10,6 +11,12 @@ export const Nav = () => {
                 </li>
                 <li>
                     <a href="/faq">Faq</a>
+                </li>
+                <li>
+                    <a href="/fleet">Fleet</a>
+                </li>
+                <li>
+                    <a href="/login"><FiUser/></a>
                 </li>
             </ul>
         </nav>
